@@ -1,0 +1,4 @@
+Log file created
+[2025-02-25T18:44:58.527Z] [INFO] [logger.ts:43] Aplicación iniciada correctamente  
+[2025-02-25T18:44:58.527Z] [WARNING] [logger.ts:43] Advertencia en el sistema [Track: Módulo X] 
+[2025-02-25T18:44:58.528Z] [ERROR] [logger.ts:43] Error crítico detectado [Track: Módulo Y] [Error: NullReferenceException]
