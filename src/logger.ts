@@ -78,5 +78,3 @@ export class Logger {
     this.logMessage("ERROR", message, track, error);
   }
 }
-
-export default new Logger();

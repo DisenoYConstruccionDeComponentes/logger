@@ -2,3 +2,12 @@ Log file created
 [2025-02-25T18:44:58.527Z] [INFO] [logger.ts:43] Aplicación iniciada correctamente  
 [2025-02-25T18:44:58.527Z] [WARNING] [logger.ts:43] Advertencia en el sistema [Track: Módulo X] 
 [2025-02-25T18:44:58.528Z] [ERROR] [logger.ts:43] Error crítico detectado [Track: Módulo Y] [Error: NullReferenceException]
+[2025-02-25T20:55:49.896Z] [INFO] [logger.ts:57] Aplicación iniciada correctamente  
+[2025-02-25T20:55:49.897Z] [WARNING] [logger.ts:57] Advertencia en el sistema [Track: Módulo X] 
+[2025-02-25T20:55:49.898Z] [ERROR] [logger.ts:57] Error crítico detectado [Track: Módulo Y] [Error: NullReferenceException]
+[2025-02-25T20:59:00.200Z] [INFO] [logger.ts:57] Aplicación iniciada correctamente  
+[2025-02-25T20:59:00.201Z] [WARNING] [logger.ts:57] Advertencia en el sistema [Track: Módulo X] 
+[2025-02-25T20:59:00.201Z] [ERROR] [logger.ts:57] Error crítico detectado [Track: Módulo Y] [Error: NullReferenceException]
+[2025-02-25T21:15:04.831Z] [INFO] [logger.ts:57] Aplicación iniciada correctamente  
+[2025-02-25T21:15:04.833Z] [WARNING] [logger.ts:57] Advertencia en el sistema [Track: Módulo X] 
+[2025-02-25T21:15:04.833Z] [ERROR] [logger.ts:57] Error crítico detectado [Track: Módulo Y] [Error: NullReferenceException]

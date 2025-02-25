@@ -1,0 +1,4 @@
+import*as s from"fs";import*as n from"path";import{fileURLToPath as c}from"url";var p=c(import.meta.url),f=n.dirname(p),o=class{logFilePath;constructor(){let t=new Date().toISOString().split("T")[0];this.logFilePath=n.join(f,`log-${t}.txt`),this.ensureLogFileExists()}async ensureLogFileExists(){try{await s.promises.access(this.logFilePath)}catch{s.writeFileSync(this.logFilePath,`Log file created
+`,{flag:"w"})}}getCallerInfo(){let t=new Error().stack;if(!t)return{file:"",line:0};let e=t.split(`
+`)[2]?.match(/\((.*):(\d+):\d+\)/);return e?{file:n.basename(e[1]),line:parseInt(e[2],10)}:{file:"",line:0}}logMessage(t,i,r,e){let{file:l,line:g}=this.getCallerInfo(),a=`[${new Date().toISOString()}] [${t}] [${l}:${g}] ${i} ${r?`[Track: ${r}]`:""} ${e?`[Error: ${e}]`:""}
+`;s.appendFileSync(this.logFilePath,a,"utf8"),console.log(a)}info(t,i){this.logMessage("INFO",t,i)}warn(t,i){this.logMessage("WARNING",t,i)}error(t,i,r){this.logMessage("ERROR",t,i,r)}};export{o as Logger};
